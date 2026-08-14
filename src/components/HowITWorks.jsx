@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Card } from "@heroui/react";
 import { Refrigerator, Sparkles, SlidersHorizontal, ChefHat } from "lucide-react";
 
@@ -74,7 +74,7 @@ export default function HowItWorks() {
             </Card>
           ))}
         </div>
-        
+
       </div>
     </section>
   );
