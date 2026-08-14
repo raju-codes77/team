@@ -74,6 +74,7 @@ export default function HowItWorks() {
             </Card>
           ))}
         </div>
+        
       </div>
     </section>
   );
