@@ -1,11 +1,13 @@
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h2>hello</h2>
-      <h1>hello</h1>
-      <h3>hello </h3>
+    <div className="min-h-screen bg-[#fffcf9] text-[#1a1210] font-sans antialiased">
+      <Navbar />
+      <main>
+        <Banner />
+      </main>
     </div>
   );
 }
