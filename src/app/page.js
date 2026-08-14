@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
+import PresentationStarterBanner from "@/components/PresentationStarterBanner";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Banner />
+        <PresentationStarterBanner />
       </main>
     </div>
   );
