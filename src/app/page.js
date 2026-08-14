@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
+import PresentationStarterBanner from "@/components/Presentationstarterbanner ";
 import FooterPage from "@/components/Footer";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <Banner />
       </main>
+      <PresentationStarterBanner/>
       <FooterPage />
     </div>
   );
