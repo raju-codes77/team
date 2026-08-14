@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
 import PresentationStarterBanner from "@/components/PresentationStarterBanner";
+import FooterPage from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Banner />
         <PresentationStarterBanner />
       </main>
+      <FooterPage />
     </div>
   );
 }
