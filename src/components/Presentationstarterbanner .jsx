@@ -5,13 +5,7 @@ import { ChefHat } from "lucide-react";
 export default function PresentationStarterBanner() {
   return (
     <div
-      className="
-        relative w-full max-w-7xl mx-auto my-8
-        rounded-2xl px-8 py-10 sm:px-12 sm:py-10
-        flex flex-col sm:flex-row items-center
-        justify-between gap-8
-        shadow-lg shadow-orange-900/10
-      "
+      className="relative w-full max-w-7xl mx-auto my-8 rounded-2xl px-8 py-10 sm:px-12 sm:py-10 flex flex-col sm:flex-row items-center justify-between gap-8 shadow-lg shadow-orange-900/10"
       style={{
         background: "linear-gradient(115deg, #B3211E 0%, #E85D2A 55%, #F5A93B 100%)",
       }}
@@ -27,24 +21,16 @@ export default function PresentationStarterBanner() {
         </h2>
 
         <p className="text-sm sm:text-base text-white/85 leading-relaxed">
-          Static only, no working functionality, built to match the mockup&aposs
-          visual language.
+          Static only, no working functionality, built to match the mockup&apos;s visual language.
         </p>
       </div>
 
       {/* Right: pill badge */}
       <div className="shrink-0 self-center">
-        <div
-          className="
-            flex items-center gap-2
-            bg-white rounded-full
-            px-5 py-2.5
-            shadow-sm
-          "
-        >
+        <div className="flex items-center gap-2 bg-white rounded-full px-5 py-2.5 shadow-sm">
           <ChefHat className="w-4 h-4 text-red-700" strokeWidth={2.2} />
           <span className="text-sm font-semibold text-red-800">
-            Chef & aposs Kitchen
+            Chef&apos;s Kitchen
           </span>
         </div>
       </div>
