@@ -2,13 +2,6 @@
 
 import { ChefHat } from "lucide-react";
 
-/**
- * PresentationStarterBanner
- * Static promotional banner — matches provided mockup.
- * Requires Tailwind CSS to be configured in the Next.js project.
- * Requires `lucide-react` for the chef-hat icon (npm i lucide-react),
- * or swap it for your own icon/SVG.
- */
 export default function PresentationStarterBanner() {
   return (
     <div
@@ -34,7 +27,7 @@ export default function PresentationStarterBanner() {
         </h2>
 
         <p className="text-sm sm:text-base text-white/85 leading-relaxed">
-          Static only, no working functionality, built to match the mockup&apos;s
+          Static only, no working functionality, built to match the mockup&aposs
           visual language.
         </p>
       </div>
