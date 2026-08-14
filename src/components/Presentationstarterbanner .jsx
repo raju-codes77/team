@@ -51,7 +51,7 @@ export default function PresentationStarterBanner() {
         >
           <ChefHat className="w-4 h-4 text-red-700" strokeWidth={2.2} />
           <span className="text-sm font-semibold text-red-800">
-            Chef&apos;s Kitchen
+            Chef & aposs Kitchen
           </span>
         </div>
       </div>
