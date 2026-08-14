@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
 import HowItWorks from "@/components/HowITWorks";
+import AssistantPreview from "@/components/AssistantPreview";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
        <Banner/>
        <HowItWorks/>
+       <AssistantPreview/>
       
       </main>
     </div>
